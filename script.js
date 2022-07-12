@@ -97,8 +97,8 @@ btnholdEl.addEventListener("click", function () {
   //ending the game
 
   if (
-    Number(scoreEl0.textContent) >= 10 ||
-    Number(scoreEl1.textContent >= 10)
+    Number(scoreEl0.textContent) >= 100 ||
+    Number(scoreEl1.textContent >= 100)
   ) {
     nameEl0.textContent = activePlayer === 0 ? nam1 : nam2;
     nameEl1.textContent = "winner";
